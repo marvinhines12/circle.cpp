@@ -12,4 +12,10 @@ int main()
   double area;
   area = 3.14159*radius*radius
   
-  cout << "The area of circle with radius " << radius << " is " << area; 
+  double perimeter;
+  perimeter = 2*3.14159*radius
+  
+  cout << "The area of circle with radius " << radius << " is " << area << endl;
+  cout << The perimeter is " << perimeter;
+  
+ 
